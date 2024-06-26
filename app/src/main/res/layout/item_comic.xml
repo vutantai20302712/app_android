@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/black">
+        <ImageView android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:id="@+id/image_co"
+            android:src="@drawable/naruto">
+        </ImageView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center_vertical">
+    <TextView
+            android:gravity="center"
+            android:id="@+id/name_co"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Name Comic"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#FF0033"
+            ></TextView>
+        <TextView
+            android:gravity="center"
+            android:id="@+id/artist_co"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Name's Artist"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            ></TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/content_co"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:src="@drawable/naruto"></ImageView>
+</LinearLayout>

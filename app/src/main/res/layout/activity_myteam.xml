@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".myteam"
+    android:orientation="vertical"
+    android:background="#FFF27F">
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/titan_one"
+        android:text="MY TEAM"
+        android:textSize="40dp"
+        android:textColor="@color/black"
+        android:gravity="center">
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:layout_marginTop="20dp">
+        <ImageView android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/image_co"
+            android:src="@drawable/goku">
+        </ImageView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Vu Tan Tai"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#363636"></TextView>
+            <TextView
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=" ▪  D04K14 - Programming"
+                android:textColor="#4F4F4F"
+                ></TextView>
+            <TextView
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=" ▪  53KG - 1M73"
+                android:textColor="#696969"
+                ></TextView>
+            <TextView
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=" ▪  Admin"
+                android:textStyle="bold"
+                android:textColor="#828282"
+                ></TextView>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:layout_marginTop="20dp">
+        <ImageView android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/naruto_face">
+        </ImageView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Vu Dinh Van"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#363636"></TextView>
+            <TextView
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=" ▪  D04K14 - Programming"
+                android:textColor="#4F4F4F"
+                ></TextView>
+            <TextView
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=" ▪  75KG - 1M80"
+                android:textColor="#696969"
+                ></TextView>
+            <TextView
+                android:textSize="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=" ▪  Member"
+                android:textStyle="bold"
+                android:textColor="#828282"
+                ></TextView>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        <Button
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:text="ADDRESS of team"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:id="@+id/address"
+            android:backgroundTint="#1C1C1C"></Button>
+
+        <Button
+            android:id="@+id/email"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#363636"
+            android:text="email"
+            android:textSize="17dp"
+            android:textStyle="bold"></Button>
+
+        <Button
+            android:layout_marginTop="15dp"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:text="messenger"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:id="@+id/message"
+            android:backgroundTint="#4F4F4F"></Button>
+        <Button
+            android:layout_marginTop="15dp"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:text="call"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:id="@+id/call"
+            android:backgroundTint="#696969"></Button>
+    </LinearLayout>
+    </LinearLayout>

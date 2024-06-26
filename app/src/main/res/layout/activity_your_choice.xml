@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".start_app"
+    android:orientation="vertical"
+    android:background="#FFF27F">
+
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_width="290dp"
+        android:layout_height="100dp"
+        android:text="ABOUT US"
+        android:fontFamily="@font/titan_one"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:id="@+id/films"
+        android:backgroundTint="#3399FF"></Button>
+    <Button
+        android:layout_marginTop="15dp"
+        android:layout_width="290dp"
+        android:layout_height="100dp"
+        android:text="READ COMIC"
+        android:textColor="@color/white"
+        android:fontFamily="@font/titan_one"
+        android:textSize="30dp"
+        android:id="@+id/music"
+        android:layout_gravity="center"
+        android:backgroundTint="#F70C0C"></Button>
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:fontFamily="@font/titan_one"
+        android:text="Please select the"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="30dp">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:fontFamily="@font/titan_one"
+        android:text="category you desire"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="30dp">
+    </TextView>
+    <ImageView
+        android:orientation="horizontal"
+        android:layout_width="250dp"
+        android:id="@+id/image"
+        android:layout_height="310dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/naruto_angry">
+    </ImageView>
+</LinearLayout>
